@@ -1,0 +1,21 @@
+{
+  "name": "optimized-mourning-platform",
+  "version": "2.0.0",
+  "description": "优化版线上哀悼平台 - 纪念大埔火灾罹难者",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node api/index.js"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.8.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "validator": "^13.11.0"
+  },
+  "keywords": ["哀悼", "纪念", "平台", "优化"],
+  "author": "哀悼平台团队",
+  "license": "MIT"
+}
